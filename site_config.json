@@ -4,7 +4,7 @@
     "site_root_url": "/",
     "site_domain": "2025pp.github.io",
     "site_protocol": "https",
-    "config_template_dir": "./",
+    "config_template_dir": "config",
     "source": "https://github.com/puboy7/2025pp.github.io/blob/main",
     "route": {
         "docs": {
