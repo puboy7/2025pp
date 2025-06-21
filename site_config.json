@@ -5,7 +5,7 @@
     "site_domain": "2025pp.github.io",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/pubou7/2025pp.github.io/blob/main",
+    "source": "https://github.com/puboy7/2025pp.github.io/blob/main",
     "route": {
         "docs": {
             "/get_started/zh/": "docs/get_started/zh",
@@ -82,6 +82,11 @@
         "teedoc-plugin-comments-gitalk": {
             "from": "pypi",
             "config": {
+                "contrainer": "comments-container",
+                "env": {
+                    "main_color": "#4caf7d",
+                    "second_color": "#0a7d43",
+                    "adminAutoCreate": false
                 }
             }
         },
